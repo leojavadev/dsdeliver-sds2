@@ -127,5 +127,13 @@ public class Order implements Serializable {
 			return false;
 		return true;
 	}
+	
+	public Double getTotal() {
+		Double sum = 0.0;
+		for(Product p : products) {
+			sum += p.getPrice();
+		}
+		return sum;
+	}
 
 }
