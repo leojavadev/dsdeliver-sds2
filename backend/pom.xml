@@ -9,11 +9,11 @@
 		<version>2.4.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.leojavadev</groupId>
+	<groupId>com.devsuperior</groupId>
 	<artifactId>dsdeliver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dsdeliver</name>
-	<description>Dev Superior Week 2.0</description>
+	<description>Projeto Semana DevSuperior 2.0</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -57,6 +57,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>
